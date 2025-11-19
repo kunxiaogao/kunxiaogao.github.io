@@ -1,0 +1,24 @@
+{% comment %}
+  Simple post pagination partial.
+  If you don't need pagination UI, you can leave this file almost empty,
+  but it must exist so that `{% include post_pagination.html %}` won't crash.
+{% endcomment %}
+
+{% if paginator %}
+<nav class="pagination" role="navigation">
+  <p>
+    {% if paginator.previous_page %}
+      <a class="newer-posts" href="{{ paginator.previous_page_path | relative_url }}">
+        &larr; Newer posts
+      </a>
+    {% endif %}
+
+    {% if paginator.next_page %}
+      {% if paginator.previous_page %} · {% endif %}
+      <a class="older-posts" href="{{ paginator.next_page_path | relative_url }}">
+        Older posts &rarr;
+      </a>
+    {% endif %}
+  </p>
+</nav>
+{% endif %}
