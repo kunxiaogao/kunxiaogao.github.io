@@ -9,42 +9,79 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+# Kunxiao Gao
+`1-805-837-9811 | kgao9@jh.edu | GitHub: https://github.com/kunxiaogao`
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+## Education
+- **Johns Hopkins University**, Baltimore, MD — Master of Science in Engineering in Data Science (08/2023 – Present), GPA: 3.87/4. Core courses: Artificial Intelligence, Deep Learning, Machine Learning for Medical Applications, Machine Translation, Reinforcement Learning, Applied Statistics and Data Analysis, Algorithms.  
+- **University of California, Santa Barbara**, Santa Barbara, CA — B.Sc. in Statistics and Data Science (09/2019 – 04/2023), GPA: 3.94/4. Core courses: Regression Analysis, Advanced Statistical Models, Machine Learning, Bayesian Data Analysis, Big Data Analytics. Honors: Dean's Honor List (Spring 2020 – Spring 2023).
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+## Publications
+- Gao, K., Favaro, A., Dehak, N., & Moro-Velázquez, L. (2024). *Identifying Early Markers of Alzheimer’s Disease through Longitudinal Analysis of Language and Speech Patterns.* npj Dementia – Nature (to be submitted at the end of Dec 2024). [PDF](https://www.isca-archive.org/interspeech_2025/gao25b_interspeech.pdf)
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+## Selected Academic & Professional Research Experience
+### Identifying Early Markers of Alzheimer’s Disease through Longitudinal Analysis of Language and Speech Patterns
+03/2024 – Present · Supervisors: Associate Prof. Laureano Moro-Velazquez and Assistant Prof. Najim Dehak, Center for Speech and Language Processing, JHU  
+- Investigated early Alzheimer’s Disease (AD) detection using longitudinal speech analysis, combining acoustic and linguistic features for binary classification and prodromal marker discovery.  
+- Collected 5,000+ recordings up to 10 years pre-diagnosis, applied noise reduction, diarization, and segment filtering to ensure data quality.  
+- Extracted acoustic and linguistic features with models such as Llama3 and Wav2Vec 2.0 to generate interpretable/non-interpretable features for early AD signs.  
+- Developed and tested classification models (SVM, XGBoost, MLPs), performed longitudinal statistical analysis, and identified significant speech markers (pauses, pitch variation, syntactic complexity) for clinical detection and monitoring.  
+- Achieved 0.80 accuracy on pre-diagnosis speech patterns using NIFMs, capturing subtle linguistic and acoustic cues.
 
-Publications
-======
-* Add your publications here
+### GNN Efficiency Improvements by Using Graph Sampling Strategies
+02/2023 – Present · Supervisor: Assistant Prof. Luana Ruiz, AMS Department, JHU  
+- Built a GNN for correlation network prediction, optimizing computational efficiency while preserving predictive accuracy.  
+- Applied graph signal sampling techniques (leveraging scores, adapted BFS) to construct smaller representative graphs; trained GNNs on reduced graphs and evaluated with a Graph Shift Operator on full data.  
+- Derived Lipschitz continuous graphon-based error bounds showing leverage-score sampling converges faster than uniform sampling.  
+- Matched performance of full-graph training with reduced compute, lowering MSE by ~26.8% versus traditional sampling.
 
-Service and leadership
-======
-* Add your service and leadership activities here
+### Glodon — Beijing, China · Data Scientist Intern
+06/2023 – 08/2023  
+- Predicted customer purchasing behavior and prioritized high-potential clients.  
+- Built fuzzy matching with jieba + regex to surface top 200 stop-words for rule-out during matching; engineered term-match tables.  
+- Aggregated temporal customer data by project type/budget using back-tracking retrieval across custom time windows.  
+- Trained XGBoost with randomized search and Bayesian optimization; best model achieved 0.6589 AUC and stable ROC/K-S behavior on test data.
+
+### Amgen Knowledge Graphs Based on PubMedBERT Model
+01/2023 – 06/2023 · Supervisor: Dr. Maxim Ivanov, Amgen / UCSB  
+- Applied NLP and text-mining to automate and refresh biomedical knowledge graphs for drug repurposing.  
+- Reproduced BERT baseline from the BioRED paper; fine-tuned PubMedBERT for NER with 62% precision and 75% recall on unseen datasets.  
+- Completed data preprocessing and deployed fine-tuned models on Amgen’s corpus to extract biomedical entities and relations.
+
+## Other Project Experience
+### Machine Learning in Medical Applications
+02/2024 – 05/2024 · Instructor: Associate Prof. Laureano Moro-Velazquez, JHU  
+- Built EEG + spectrogram classifiers for harmful brain activity (Harvard Challenge), reaching >86.04% accuracy.  
+- Converted EEG to spectrograms, reorganized electrodes into four panels, and applied FFT for clarity.  
+- Implemented ResNet and EfficientNet with Multiple Instance Learning (MIL), slicing embeddings into windowed instances to capture localized patterns.  
+- Tuned MIL kernels/strides on dev sets to improve adaptability for seizure detection and broader diagnostic use.
+
+### Machine Translation
+09/2023 – 12/2023 · Instructor: Prof. Philipp Koehn, JHU  
+- Developed a hybrid statistical + neural French→English translation system.  
+- Used Metropolis–Hastings to optimize beam search decoding, improving quality with lower compute.  
+- Integrated phrase-based models, language models, and reordering strategies; benchmarked against standard metrics/baselines.
+
+### Data Science Capstone
+09/2022 – 06/2023 · Supervisor: Prof. Trevor Ruiz, UCSB  
+- Practiced GLMs, KNN regression, Random Forests, NLP, and neural nets with professional data-processing pipelines.  
+- Led group learning on real-world problems: ASD biomarker identification, fraud risk prediction, clustering countries by socio-economic and health factors.  
+- Conducted literature reviews, trend analysis, and presentations to contribute to applied data science discussions.
+
+## Other Working Experience
+### Johns Hopkins University — Teaching Assistant for Applied Statistics and Data Analytics
+08/2024 – Present · Baltimore, MD  
+- Conduct problem sessions, grade assignments, supervise exams, and maintain updated solutions.
+
+### China Unicom — Software Engineer Intern, Technical Department
+06/2021 – 08/2021 · Beijing, China  
+- Built Python web crawler to collect and clean data for 30 banks (location, contact, metadata).  
+- Helped expand user databases for nine provinces/cities with demographic and economic indicators.  
+- Developed a parameterized Python program to auto-generate ICBC Urban Market Analysis PPTs.
+
+## Awards and Honors
+- Second Prize, CYPT (China Young Physicists’ Tournament), Nankai University, China (Aug).
+
+## Skills
+- Programming: Python (PyTorch, scikit-learn, TensorFlow, spaCy, requests), R, SAS, SQL, Spark, Shell, LaTeX.  
+- Languages: Chinese (native), English (GRE 325: V158, Q167, AW 4.0).

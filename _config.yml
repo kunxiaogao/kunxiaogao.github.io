@@ -23,7 +23,7 @@ repository               : "kunxiaogao/kunxiaogao.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "kunxiao_image.png"
+  avatar           : "kunxiao.png"
   name             : "Kunxiao Gao"
   pronouns         : # example: "she/her"  
   bio              : "PhD student at Umich, CSE Department"
