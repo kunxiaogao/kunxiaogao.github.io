@@ -1,5 +1,4 @@
 ---
-layout: single
 permalink: /
 title: "Kunxiao Gao"
 author_profile: true
@@ -15,4 +14,4 @@ I am a first-year PhD student in Computer Science and Engineering at the Univers
 - Efficient graph learning and sampling for large-scale neuro/health datasets
 
 ## Publications
-- Gao, K., Favaro, A., Dehak, N., & Moro-Velázquez, L. (2024). *Identifying Early Markers of Alzheimer’s Disease through Longitudinal Analysis of Language and Speech Patterns.* npj Dementia (under submission). [PDF](https://www.isca-archive.org/interspeech_2025/gao25b_interspeech.pdf)
+- [Gao, K., Favaro, A., Dehak, N., Velazquez, L.M. (2025) ADCeleb: A Longitudinal Speech Dataset from Public Figures for Early Detection of Alzheimer's Disease. *Proc. Interspeech 2025*, 5688-5692, doi: 10.21437/Interspeech.2025-523.](https://www.isca-archive.org/interspeech_2025/gao25b_interspeech.pdf)
