@@ -1,4 +1,5 @@
 ---
+layout: single
 permalink: /
 title: "Kunxiao Gao"
 author_profile: true
