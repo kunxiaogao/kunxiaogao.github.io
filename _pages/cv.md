@@ -13,7 +13,7 @@ redirect_from:
 
 📄 [PDF version]({{ '/images/cv.pdf' | relative_url }}){:target="_blank"}
 
-**Phone:** 1-805-837-9811 | **Email:** kgao9@jh.edu | **GitHub:** [kunxiaogao](https://github.com/kunxiaogao)
+**Email:** kgao9@jh.edu | **GitHub:** [kunxiaogao](https://github.com/kunxiaogao)
 
 ## Education
 
