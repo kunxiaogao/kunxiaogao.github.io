@@ -11,14 +11,17 @@ redirect_from:
 
 # Kunxiao Gao
 
-📄 [PDF version]({{ '/images/cv.pdf' | relative_url }}){:target="_blank"}
+📄 [PDF version]({{ '/images/cv_update.pdf' | relative_url }}){:target="_blank"}
 
 **Email:** kgao9@jh.edu | **GitHub:** [kunxiaogao](https://github.com/kunxiaogao)
 
 ## Education
 
+**University of Michigan**, Ann Arbor, MI  
+*Ph.D. in Computer Science and Engineering* | 09/2025 – Present | GPA: 4.0/4.0
+
 **Johns Hopkins University**, Baltimore, MD  
-*M.S.E. in Data Science* | 08/2023 – Present | GPA: 3.87/4
+*M.S.E. in Data Science* | 08/2023 – 05/2025 | GPA: 3.87/4
 
 Core: Artificial Intelligence, Deep Learning, Machine Learning for Medical Applications, Machine Translation, Reinforcement Learning, Applied Statistics and Data Analysis, Algorithms.
 
